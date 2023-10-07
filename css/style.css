@@ -1,0 +1,426 @@
+/* Global---------------------------------------------------*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    text-decoration: none !important;
+    list-style-type:none !important;
+    border:px solid;
+}
+/* ------------------------------------------------ */
+
+
+html
+{
+  font-size:100%;
+}
+
+/* typography--------------/Fonts------------------------- */
+
+@font-face {
+    font-family:roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:poppins-medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family:poppins-regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+/* ------------------------------------------------------------ */
+
+/* Random------------------------------------------------------ */
+.font-12
+{
+    font-size: 12px;
+}
+.font-13
+{
+    font-size: 13px;
+}
+.font-14
+{
+    font-size: 14px;
+}
+.font-15
+{
+    font-size: 15px;
+}
+.font-16
+{
+    font-size: 16px;
+}
+.font-17
+{
+    font-size: 17px;
+}
+.font-20
+{
+    font-size: 20px;
+}
+
+.color-pri
+{
+    color:#003859;
+}
+.color-sec
+{
+    color:#00A5c4;
+}
+.color-tec
+{
+    color:#FFd289;
+}
+/* ----------------------------------------------------------------- */
+
+
+/* header----------------------------------------------------------- */
+#header .left,.right
+{
+  font-family: roboto-regular;
+}
+#header nav
+{
+    background-color:#00A5c4;
+}
+#header .navbar-nav
+{
+    font-family:roboto-medium;
+}
+#header form a
+{
+    background-color:#003859;
+}
+/* --------------------------------------------------------------- */
+
+/* banner---------------------------------------------------- */
+
+#banner-area
+{
+    background:linear-gradient(white 55%,aqua)
+}
+#banner-area .banner-text
+{
+    font-family: roboto-medium;
+    padding: 1.3rem;
+}
+#banner-area .item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#banner-area .item p
+{
+   font-size: 0.9rem;
+}
+
+#banner-area .item a
+{
+   padding:0.7rem 2.2rem;
+   border: 2px solid;
+   border-radius: 50px;
+   color: black;
+   display: inline-block;
+   margin:0.2rem 0;
+}
+#banner-area .item  .banner-text
+{
+    flex-basis: 40%;
+    min-width:400px;
+}
+#banner-area .item img
+{
+    flex-basis: 30%;
+    min-width:250px;
+}
+/* ------------------------------------------------------------- */
+
+/* top sale------------------------------------------------------ */
+#top-sale h4
+{
+    font-family: poppins-medium;
+    font-size:1.8rem;
+}
+
+#top-sale .product
+{
+    font-family: poppins-regular;
+}
+
+#top-sale .owl-carousel .product .img
+{
+    width:150px;
+    height:150px;
+    object-fit: contain;
+    transition: all 0.3s ease-in;
+    margin: auto;
+}
+#top-sale .owl-carousel .product .naira
+{
+    width: 20px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+#top-sale .owl-carousel .product img:hover
+{
+    transform: scale(1.1);
+}
+
+.rating i
+{
+    font-size: 0.6rem;
+}
+
+#top-sale button
+{
+    font-size: 0.7rem;
+}
+
+
+#top-sale .owl-carousel .owl-nav button
+{
+    position: absolute;
+    top:30%;
+    outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev
+{
+    left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span
+{
+    font-size: 2rem;
+    color:black;
+}#top-sale .owl-carousel .owl-nav button.owl-next
+{
+    right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span
+{
+    font-size: 2rem;
+    color:black;
+}
+
+/* special price--------------------------- */
+#special-price h4
+{
+    font-family: poppins-medium;
+    font-size:1.8rem;
+}
+#special-price .grid-item
+{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+#special-price .product
+{
+    font-family: poppins-regular;
+}
+#special-price .button-group button
+{
+    font-family: poppins-medium;
+}
+#special-price .product .img
+{
+    width: 180px;
+    height:180px;
+    object-fit: contain;
+}
+#special-price .owl-carousel .product .naira
+{
+    width: 20px !important;
+    margin-right: 4px !important;
+}
+
+/* ---------------------------------------- */
+
+/* banner-ads------------------------------ */
+#banner-ads .wrapper
+{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+#banner-ads .item
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0.5rem;
+    background: aqua;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.322);
+}
+#banner-ads .item .img-wrapper img
+{
+    width:250px;
+    height: 150px;
+    object-fit: contain;
+    margin: auto;
+    flex:1 ;
+}
+#banner-ads .item .text
+{
+    font-family: poppins-regular;
+    margin: 0 1rem 0 0;
+    flex:1;
+
+}
+#banner-ads .item .text h4
+{
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+#banner-ads .item .text a
+{
+    font-size: 0.7rem;
+    display: inline-block;
+    padding: 3px 7px;
+    border: 1px solid;
+    color:black;
+    font-weight:900;
+    border-radius: 3px;
+}
+/* --------------------------------------- */
+
+/* new phones----------------------------- */
+ #new-phones h4
+{
+    font-family: poppins-medium;
+    font-size:1.8rem;
+}
+
+#new-phones .product
+{
+    font-family: poppins-regular;
+}
+
+#new-phones .owl-carousel .product .img
+{
+    width:150px;
+    height:150px;
+    object-fit: contain;
+    transition: all 0.3s ease-in;
+    margin: auto;
+}
+
+#new-phones .owl-carousel .product img:hover
+{
+    transform: scale(1.1);
+}
+#new-phones .owl-carousel .product .naira
+{
+    width: 20px !important;
+    display: inline-block;
+    margin-right: 4px;
+}
+.rating i
+{
+    font-size: 0.6rem;
+}
+
+#new-phones button
+{
+    font-size: 0.7rem;
+}
+/* -------------------------------------- */
+
+/* blog--------------------------------- */
+#blog .item h5
+{
+    font-size: 1rem;
+    font-family:poppins-medium;
+}
+#blog .item p
+{
+    font-size: 0.8rem;
+    font-family: poppins-regular;
+}
+#blog .item a
+{
+    color:#00A5c4;
+    border: 1px solid;
+    border-radius:3px;
+    padding: 3px 2px;
+    text-align: center;
+    width: 90px;
+}
+/* ------------------------------------ */
+
+
+
+
+
+/* product----------------------------- */
+#product
+{
+    font-family: roboto-regular;
+}
+#product #policy a
+{
+   color:#00A5c4;
+}
+#product #order-detail small i
+{
+   color:#00A5c4;
+}
+.color-bg-tec
+{
+    background-color:#FFd289;
+}
+.color-bg-sec
+{
+    background-color:#003859;
+}
+.color-bg-pri
+{
+    background-color:#00A5c4;
+}
+/* ------------------------------------ */
+
+
+
+/* cart--------------------------------- */
+/* #cart .total
+{
+    display: inline-block;
+} */
+/* -------------------------------------- */
+
+
+
+/* footer ------------------------------ */
+#footer h4
+{
+ font-size: 1.2rem;
+ font-family: poppins-medium;
+}
+#footer a
+{
+ font-size: 0.8rem;
+ font-family: poppins-regular;
+}
+.copyright
+{
+ font-size: 0.8rem;
+ font-family: poppins-regular;
+}
+/* ------------------------------------ */
+/* main---------------------------------------------------------- */
